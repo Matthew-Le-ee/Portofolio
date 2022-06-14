@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import company from '../Components/images/Company.jpeg'
 import todolist from '../Components/images/TodoList.webp'
+import Google from './images/Google.jpg'
 import { AiOutlineArrowRight } from "react-icons/ai";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -36,15 +37,30 @@ class Projects extends Component {
 							</a>
 						</div>
 					</div>
-					<div className="first" data-aos = "fade-up">
+					<div className="first" data-aos="fade-up">
 						<img
 							src={todolist}
-							alt="company"
+							alt="Todo list"
 							style={{ width: "100%" }}
 						/>
 						<div className="second" style={{ padding: "20px" }}>
 							<h3>Todo List React</h3>
 							<a href="https://matthew-le-ee.github.io/Todo-list/">
+								<button className="btn">
+									Live Demo <AiOutlineArrowRight />
+								</button>
+							</a>
+						</div>
+					</div>
+					<div className="first" data-aos="fade-up">
+						<img
+							src={Google}
+							alt="Google-clone"
+							style={{ width: "100%" }}
+						/>
+						<div className="second" style={{ padding: "20px" }}>
+							<h3>Google Clone</h3>
+							<a href="https://matthew-le-ee.github.io/Google-clone/">
 								<button className="btn">
 									Live Demo <AiOutlineArrowRight />
 								</button>
