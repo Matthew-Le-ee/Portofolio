@@ -5,6 +5,7 @@ import Google from './images/Google.jpg'
 import { AiOutlineArrowRight } from "react-icons/ai";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Tinder from "./images/tinder.png"
 
 class Projects extends Component {
 	componentDidMount(){
@@ -61,6 +62,21 @@ class Projects extends Component {
 						<div className="second" style={{ padding: "20px" }}>
 							<h3>Google Clone</h3>
 							<a href="https://matthew-le-ee.github.io/Google-clone/">
+								<button className="btn">
+									Live Demo <AiOutlineArrowRight />
+								</button>
+							</a>
+						</div>
+					</div>
+					<div className="first" data-aos="fade-up">
+						<img
+							src={Tinder}
+							alt="Tinder-clone"
+							style={{ width: "100%" }}
+						/>
+						<div className="second" style={{ padding: "20px" }}>
+							<h3>Tinder Clone MERN</h3>
+							<a href="https://tinder-clone-6264e.web.app/">
 								<button className="btn">
 									Live Demo <AiOutlineArrowRight />
 								</button>
