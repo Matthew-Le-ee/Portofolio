@@ -6,6 +6,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Tinder from "./images/tinder.png"
+import Chat from './images/istockphoto-1281337303-170667a.jpg'
 
 class Projects extends Component {
 	componentDidMount(){
@@ -77,6 +78,21 @@ class Projects extends Component {
 						<div className="second" style={{ padding: "20px" }}>
 							<h3>Tinder Clone MERN</h3>
 							<a href="https://tinder-clone-6264e.web.app/">
+								<button className="btn">
+									Live Demo <AiOutlineArrowRight />
+								</button>
+							</a>
+						</div>
+					</div>
+					<div className="first" data-aos="fade-up">
+						<img
+							src={Chat}
+							alt="Real-Time-Chat-App"
+							style={{ width: "100%" }}
+						/>
+						<div className="second" style={{ padding: "20px" }}>
+							<h3>Real-Time-Chat-App</h3>
+							<a href="https://real-time-chat-app-534ca.web.app/">
 								<button className="btn">
 									Live Demo <AiOutlineArrowRight />
 								</button>
