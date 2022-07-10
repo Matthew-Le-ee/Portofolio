@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/Portofolio/static/css/main.dde4f297.css",
-    "main.js": "/Portofolio/static/js/main.85cf9952.js",
+    "main.js": "/Portofolio/static/js/main.48d6fe2f.js",
     "static/media/Company.jpeg": "/Portofolio/static/media/Company.52f4c2b025171947576c.jpeg",
     "static/media/TodoList.webp": "/Portofolio/static/media/TodoList.e8bb6d96c1ef0a94ca2e.webp",
+    "static/media/istockphoto-1281337303-170667a.jpg": "/Portofolio/static/media/istockphoto-1281337303-170667a.68f2f0e69ee3ae25c463.jpg",
     "static/media/tinder.png": "/Portofolio/static/media/tinder.1c197b9170872e7e8109.png",
     "static/media/Resume_Matthew-Lee.docx": "/Portofolio/static/media/Resume_Matthew-Lee.71d4b4733d0f65fc4e6a.docx",
     "static/media/purple.jpg": "/Portofolio/static/media/purple.887eb91859490876c4ae.jpg",
     "index.html": "/Portofolio/index.html",
     "main.dde4f297.css.map": "/Portofolio/static/css/main.dde4f297.css.map",
-    "main.85cf9952.js.map": "/Portofolio/static/js/main.85cf9952.js.map"
+    "main.48d6fe2f.js.map": "/Portofolio/static/js/main.48d6fe2f.js.map"
   },
   "entrypoints": [
     "static/css/main.dde4f297.css",
-    "static/js/main.85cf9952.js"
+    "static/js/main.48d6fe2f.js"
   ]
 }
